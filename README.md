@@ -42,7 +42,9 @@ The repository will continue to evolve as new technologies, frameworks, and best
 
 # Learning Roadmap
 
-```text
+<div align="center">
+
+<pre>
 Git & GitHub
       │
       ▼
@@ -86,7 +88,9 @@ REST APIs
       │
       ▼
 Deployment
-```
+</pre>
+
+</div>
 
 ---
 
