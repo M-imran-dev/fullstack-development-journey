@@ -24,9 +24,6 @@
 <img src="https://skillicons.dev/icons?i=html,css,javascript,bootstrap,tailwind,react,nodejs,express,mongodb,mysql,git,github,vscode,npm,postman,vercel"/>
 
 </div>
-<div align="center">
-</div>
-
 ---
 
 # Full Stack Web Development
