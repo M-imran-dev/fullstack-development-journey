@@ -6,7 +6,9 @@
     <title>Button Html</title>
 </head>
 <body>
+    <button type="submit">Out of Form</button>
     <form action="/server">
+        <button>click here</button>
         <div>
             <label for="username">Enter Password</label>
             <input type="text" placeholder="Username" id="username">
@@ -20,6 +22,11 @@
         <button type="submit">Submit</button>
         <button type="button">Button</button>
         <button type="reset">Reset</button>
+
+        <!-- Button inside input tag which is not recommended -->
+        <input type="submit">
+        <input type="submit" value="Click on me">
+        <!-- value attribute will change the button name -->
     </form> 
 </body>
 </html>
