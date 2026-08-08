@@ -3,6 +3,9 @@ h1 {
 }
 
 button {
-    color:darkorchid;
-    background-color:cornsilk;
+    /* color:darkorchid; */
+    color:#ff012f;
+    /* background-color:green; */
+    background-color: rgb(185, 178, 192);
+
 }
