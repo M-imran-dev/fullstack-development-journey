@@ -1,0 +1,44 @@
+h1 {
+    color:green;
+}
+
+h1 {
+    color:blue;
+}
+
+h1 {
+    color: rgb(255,0,0);
+}
+
+h1 {
+    color: rgb(0,255,0);
+}
+
+h1 {
+    color: rgb(0,0,255);
+}
+
+h1 {
+    color: rgb(255,255,0);
+}
+
+h1 {
+    color: rgb(255,0,255);
+}
+
+h1 {
+    color: rgb(0,0,0);
+}
+
+h1 {
+    color: rgb(255,255,255);
+    background-color:black;
+}
+
+h1 {
+    color:rgb(23, 144, 189)
+}
+
+h1 {
+    color:rgb(120,20,255);
+}
