@@ -1,0 +1,37 @@
+h1 {
+    text-align:center;
+    color:white;
+    background-color:black;
+    width:40%;
+    border: solid;
+    border-color:blue;
+}
+
+h2 {
+    text-align:center;
+    color:blue;
+    background-color:yellow;
+    border:solid;
+    width: 40%;
+    border-color:red;
+
+}
+
+h3 {
+    text-align:center;
+    border:solid;
+    border-color:red;
+    width:40%;
+    color:blue;
+    background-color:aquamarine;
+}
+
+/* justify will give space to balance the left and right corner of a text */
+p {
+    text-align:justify;
+    width:40%;
+    border:solid;
+    border-color:blue;
+    color:red;
+    background-color: yellow;
+}
