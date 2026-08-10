@@ -1,0 +1,36 @@
+/* Font-size fixed size is px which we will not use for responsive website as their size is fixed and we will use relative font size 
+other one is relative font-size which is %,em,rem
+1inch = 96px */
+h1 {
+    font-size: 50px;
+    color:blue;
+    background-color:rgb(223, 211, 174);
+    border:solid;
+    border-color:red;
+    text-align:center;
+}
+
+h2 {
+    font-size: 30px;
+    color:white;
+    background-color:black;
+    border:solid;
+    border-color:blue;
+    text-align:center;
+}
+
+h3 {
+    font-size: 25px;
+    color:white;
+    background-color:black;
+    border:solid;
+    border-color:blue;
+    text-align:center;
+}
+
+p {
+    font-size: 20px;
+    color:black;
+    background-color:bisque;
+    text-align:justify;
+}
