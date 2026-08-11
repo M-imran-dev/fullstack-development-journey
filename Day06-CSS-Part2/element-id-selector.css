@@ -1,0 +1,31 @@
+h1,h3 {
+    color:#b92b27;
+}
+
+#username {
+    background-color:aquamarine;
+}
+
+#password {
+    background-color:aquamarine
+}
+
+#login {
+    background-color:cornflowerblue;
+    color:black;
+}
+
+#signup {
+    background-color:#b92b27;
+    color:white;
+}
+
+#upvote {
+    background-color:#b92b27;
+    color:white;
+}
+
+#answer {
+    background-color:dodgerblue;
+    color:black;
+}
