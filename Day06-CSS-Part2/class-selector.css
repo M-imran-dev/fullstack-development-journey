@@ -1,0 +1,23 @@
+.upvote {
+    background-color:green;
+    color:white;
+}
+
+.answer {
+    background-color:pink;
+    color:black;
+}
+
+.login-signup {
+    background-color:dodgerblue;
+    color:white;
+}
+
+.username-password {
+    background-color:lightblue;
+    color:white;
+}
+
+h1 {
+    color:brown;
+}
