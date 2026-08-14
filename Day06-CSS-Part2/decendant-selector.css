@@ -1,0 +1,20 @@
+/* select all in parent element/tag  */
+
+.follow a {
+    color:green;
+    background-color:bisque;
+    text-decoration:none;
+}
+
+#copyright {
+    text-align:center;
+}
+
+nav ul li {
+    color:brown;
+}
+
+nav ul li a {
+    color:brown;
+    text-decoration:none;
+}
