@@ -1,0 +1,51 @@
+/* 
+            ATTRIBUTE SELECTOR 
+we can select any html element using attribute = value pair or just by attribute and also there are other methods well in attribute selector
+*/
+
+input[type="text"]{
+    background-color:burlywood;
+    color:black;
+}
+
+input[type="password"]{
+    color:black;
+    background-color:darkturquoise;
+}
+
+/* button[id] {
+    color:white;
+    background-color:green;
+} */
+
+button[id="signup"] {
+    color:white;
+    background-color:black;
+}
+ 
+button[id="login"] {
+    color:white;
+    background-color:green;
+}
+
+/* with tilde  */
+
+img[id~="flower"] {
+    border:5px solid red;
+    width:300px;
+    height:300px;
+}
+
+/* with carot symbol */
+
+a[class^="follow"] {
+    color:green;
+    background-color:yellow;
+}
+
+/* with $ sign */
+
+[class$="test"] {
+    color:white;
+    background-color:black;
+}
