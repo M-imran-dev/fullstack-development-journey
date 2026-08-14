@@ -1,0 +1,16 @@
+/* 
+span > button {property:value;} 
+Selects all buttons which are direct children of span
+it is only one level
+*/
+
+h1>button {
+    background-color:cornflowerblue;
+    color:white;
+}
+
+div > input {
+    background-color:darkseagreen;
+    color:black;
+
+}
