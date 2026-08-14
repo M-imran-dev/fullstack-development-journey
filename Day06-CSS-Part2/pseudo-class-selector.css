@@ -1,0 +1,74 @@
+#login {
+    color: white;
+    background-color: green;
+}
+
+#signup {
+    color: black;
+    background-color: cyan;
+}
+
+button.upvote {
+    color:white;
+    background-color:green;
+}
+
+.upvote + button {
+    color:black;
+    background-color:cyan;
+}
+
+/* :hover psesdo class */
+
+button:hover {
+    color:white;
+    background-color:black;
+}
+
+/* :active pseudo class */
+
+button:active {
+    color:white;
+    background-color:blue;
+}
+
+/* :checked pseudo class  */
+
+input[type="radio"]:checked + label{
+    color:red;
+    background-color:yellow;
+    font-weight:bold;
+}
+
+/* :nth-of-type() pseudo combinator */
+
+div:nth-of-type(2n) {
+    background-color:yellow;
+}
+
+div:nth-of-type(3) {
+    background-color:darkorange;
+}
+
+div:hover{
+    background-color:bisque;
+}
+
+/* :link used for unvisited link */
+
+a:link {
+    color:red;
+}
+
+a:visited {
+    color:green;
+    text-decoration:none;
+}
+a:hover{
+    color:green;
+}
+
+input:focus {
+    background-color:yellow;
+    color:red;
+}
