@@ -1,0 +1,48 @@
+/* 
+priority rule to same style on specific element
+RULE: id>class>element 
+
+maximum score:
+id class element 
+greater score will win
+*/
+
+h1 {
+    color:red;
+}
+
+
+#hello {
+    color:blue;
+}
+
+.world {
+        color:green;
+}
+
+/* div p {
+    background-color:red;
+} */
+
+.para {
+    background-color: green;
+    color:white;
+    font-family:calibri;
+    text-align:center;
+}
+
+/* p {
+    background-color:blue;
+} */
+
+.GreetDiv p .greet {
+    color:green;
+}
+
+div .GreetDiv .greet {
+    color:red;
+}
+
+.GreetDiv .greet {
+    color:blue;
+}
