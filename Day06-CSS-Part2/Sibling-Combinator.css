@@ -1,0 +1,27 @@
+/* we use sibling combinator when we want to select an element on the same level of the other element like selecting p+h3{} mean selecting h3 after imegiatly paragraph on same level */
+
+
+p + h3 {
+    color:brown;
+}
+
+.upvote {
+    color:white;
+    background-color:green;
+}
+
+.upvote + button {
+    color:white;
+    background-color:cornflowerblue;
+}
+
+hr + textarea {
+    color:green;
+    background-color:antiquewhite;
+    text-align:left;
+}
+
+br + button {
+    color:white;
+    background-color:green;
+}
