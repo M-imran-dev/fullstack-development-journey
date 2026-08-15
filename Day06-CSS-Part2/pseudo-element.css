@@ -1,0 +1,31 @@
+h1::first-letter{
+    color:red;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button::first-letter{
+    color:red;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:bold;
+}
+p::first-letter{
+    color:red;
+    font-family:monospace;
+}
+
+p::first-line{
+    color:green;
+    background-color:yellow;
+}
+
+h1::selection {
+    color:white;
+    background-color:black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+}
+
+p::selection {
+    color:white;
+    background-color:black;
+}
