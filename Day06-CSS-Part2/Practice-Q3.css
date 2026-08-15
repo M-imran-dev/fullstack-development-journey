@@ -1,0 +1,30 @@
+* {
+    font-family:courier New;
+}
+
+h1 {
+    color:#1b74e4;
+}
+
+#searchbutton {
+    color:white;
+    background-color:black;
+}
+
+.account {
+    background-color:aqua;
+}
+
+#searchbutton:hover {
+    background-color:blue;
+}
+
+#searchbutton:active {
+    background-color:green;
+    color:white;
+    
+}
+
+/* #login, #register {
+    background-color:red;
+} */
