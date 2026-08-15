@@ -1,0 +1,29 @@
+button {
+    color:white;
+    background-color:black;
+}
+
+button {
+    color:red;
+    background-color:yellow;
+}
+
+button {
+    color:red;
+    background-color:green;
+}
+
+h1 {
+    color:white;
+    background-color:black;
+}
+
+#upvote {
+    color:white;
+    background-color:blue;
+}
+
+#upvote {
+    color:red;
+    background-color:yellow;
+}
