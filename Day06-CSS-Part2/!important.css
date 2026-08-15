@@ -1,0 +1,29 @@
+* {
+    font-family: courier new;
+}
+
+/* 
+even the class specificity is very low as compare to double id specificity 
+instead !important specificity is very high even high than inline css 
+so it will not change in future so we will use it very rarely
+*/
+.signbtn {
+    background-color: blue !important;
+    color: yellow !important;
+}
+
+#login,
+#signup {
+    background-color: aqua;
+    color: black;
+}
+
+h1 {
+    color: brown;
+}
+
+#login,
+#signup {
+    background-color: black;
+    color: white;
+}
