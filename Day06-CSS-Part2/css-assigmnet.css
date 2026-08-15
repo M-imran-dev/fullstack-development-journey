@@ -1,0 +1,57 @@
+#mainTopic {
+    color:blue;
+}
+
+* {
+    text-align:center;
+}
+
+.headings {
+    font-family:georgia;
+}
+
+.paragraphs {
+    color:white;
+    background-color:cornflowerblue;
+}
+
+div button {
+    color:azure;
+    background-color:purple;
+}
+
+button:hover {
+    background-color:yellow;
+    color:blue;
+}
+
+p:nth-of-type(odd) {
+    background-color:yellow;
+}
+
+h1::first-letter {
+    color:red;
+}
+
+#yes:checked + label{
+    color:darkgreen;
+    font-family:courier new;
+}
+
+/* order rule from least specific to most specific */
+
+h1{
+
+}
+
+.main {
+
+}
+
+div.main {
+
+}
+
+#mainContent{
+
+}
