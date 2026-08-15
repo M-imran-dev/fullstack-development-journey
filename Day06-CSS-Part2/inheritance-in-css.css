@@ -1,0 +1,47 @@
+div {
+    background-color:aquamarine;
+}
+
+/* input boxes and button cannot inherit parrent properties by default
+so we have to select inherit value to those and some element cannot even inherit value if we given  */
+
+button {
+    background-color:inherit;
+}
+
+input {
+    background-color:inherit;
+}
+
+h1 {
+    background-color:yellow;
+    color:red;
+    text-align:left;
+}
+
+button {
+    background-color:yellow;
+    color:red;
+}
+
+button:hover {
+    background-color:green;
+    color:white;
+}
+
+button:active {
+    background-color:blue;
+}
+
+input {
+    background-color:yellow;
+    color:red;
+}
+
+p::first-line {
+    background-color:yellow;
+}
+
+ul {
+    color:brown;
+}
