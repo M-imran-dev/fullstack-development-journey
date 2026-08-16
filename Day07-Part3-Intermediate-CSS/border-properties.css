@@ -54,3 +54,22 @@ div {
     border-top-left-radius:70px */
 }
 
+button {
+    border:1px solid blue;
+    border-radius:50px;
+    background-color:greenyellow;
+    color:black;
+    width:100px;
+    height:30px;
+}
+
+button:hover {
+    color:white;
+    background-color:black;
+}
+
+button:active {
+    color:white;
+    background-color:green;
+}
+
