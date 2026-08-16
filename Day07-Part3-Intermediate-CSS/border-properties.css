@@ -1,0 +1,42 @@
+div {
+    height:150px;
+    width:500px;
+    background-color:yellow;
+
+    /* border-color:black;
+    border-style:solid;
+    border-width:2px; */
+
+     /* we use shorthand way */
+
+    border:2px solid red; 
+
+    /* we can also give width style and colors to indivisual sides */
+
+    /* border-left:5px dotted blue;
+    border-right:20px solid black;
+    border-top:5px double red;
+    border-bottom:5px dashed green; */
+
+    /* 2nd way separatly */
+
+    border-left-color:green ;
+    border-left-style:dotted;
+    border-left-width:5px;
+
+    border-right-width:5px;
+    border-right-style:solid;
+    border-right-color:red;
+
+    border-top-width:5px;
+    border-top-style:groove;
+    border-top-color:blue;
+
+    border-bottom-width:5px;
+    border-bottom-style:dashed;
+    border-bottom-color:brown;
+
+
+
+}
+
