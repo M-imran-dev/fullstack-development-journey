@@ -1,57 +1,49 @@
 #mainTopic {
-    color:blue;
+    color: blue;
 }
 
 * {
-    text-align:center;
+    text-align: center;
 }
 
 .headings {
-    font-family:georgia;
+    font-family: georgia;
 }
 
 .paragraphs {
-    color:white;
-    background-color:cornflowerblue;
+    color: white;
+    background-color: cornflowerblue;
 }
 
 div button {
-    color:azure;
-    background-color:purple;
+    color: azure;
+    background-color: purple;
 }
 
 button:hover {
-    background-color:yellow;
-    color:blue;
+    background-color: yellow;
+    color: blue;
 }
 
 p:nth-of-type(odd) {
-    background-color:yellow;
+    background-color: yellow;
 }
 
 h1::first-letter {
-    color:red;
+    color: red;
 }
 
-#yes:checked + label{
-    color:darkgreen;
-    font-family:courier new;
+#yes:checked+label {
+    color: darkgreen;
+    font-family: courier new;
 }
 
 /* order rule from least specific to most specific */
 
-h1{
+h1 {}
 
-}
+.main {}
 
-.main {
+div.main {}
 
-}
-
-div.main {
-
-}
-
-#mainContent{
-
-}
+#mainContent {}
