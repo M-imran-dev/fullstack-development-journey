@@ -1,48 +1,66 @@
 * {
-    font-family:segoe ui;
+    font-family: segoe ui;
 }
 
 div {
-    background-color:aquamarine;
-    color:black;
-    border:2px solid black;
-    width:500px;
-    height:150px;
-    border-radius:50px;
+    background-color: aquamarine;
+    color: black;
+    border: 2px solid black;
+    width: 500px;
+    height: 150px;
+    border-radius: 50px;
     /* padding-left:20px;
     padding-right:20px;
     padding-top:30px;
     padding-bottom:30px; */
     /* padding:30px */
     /* Shorthand clockwise first one is top 2nd right 3rd botton 4th left */
-    padding:20px 30px 10px 30px;
+    padding: 20px 30px 10px 30px;
+    /* margin-left: 800px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px; */
+
+    /* Shorthand of margin */
+
+    margin:20px 20px 20px 80px;
 }
 
 button {
-    color:black;
-    background-color:yellow;
-    border:2px solid blueviolet;
+    color: black;
+    background-color: yellow;
+    border: 2px solid blueviolet;
     border-radius: 15px;
-    padding:5px 20px 5px 20px;
-    margin:5px;
+    padding: 10px 50px 10px 50px;
+    /* margin: 5px;
+    margin-left:800px;
+    margin-right:20px;
+    font-size: 20px; */
+    margin:0px 20px 10px 80px;
 }
 
 h1 {
-    color:bisque;
-    background-color:blueviolet;
-    width:300px;
-    text-align:center;
-    border:2px solid black;
-    border-radius:15px;
-    padding:10px 0px 10px 10px;
+    color: bisque;
+    background-color: blueviolet;
+    width: 300px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px 0px 10px 10px;
+    /* margin-left:800px;
+    margin-right:20px; */
+    margin:0 20px 0 80px;
 }
 
 h2 {
-    color:bisque;
-    background-color:blueviolet;
-    border:2px solid black;
-    border-radius:15px;
-    width:300px;
-    text-align:center;
-    padding:10px 0px 10px 0px;
+    color: bisque;
+    background-color: blueviolet;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 300px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    /* margin-left:800px;
+    margin-right:20px; */
+    margin:0 20px 0 80px;
 }
