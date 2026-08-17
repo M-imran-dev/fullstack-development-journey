@@ -1,0 +1,22 @@
+/* root element is html elemnt for rem */
+html {
+    font-size:50px;
+}
+section {
+    background-color:pink;
+    border:2px solid black;
+    width:400px;
+    height:400px;
+    font-size:1rem;
+}
+
+div {
+    background-color:blueviolet;
+    border:2px solid black;
+    font-size:2rem;
+    width:0.5rem;
+    height:0.5rem;
+    margin:0.5rem;
+    padding:1rem;
+    
+}
