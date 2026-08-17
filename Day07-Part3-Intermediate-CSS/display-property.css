@@ -1,0 +1,42 @@
+.header {
+    display:inline;
+    margin:10px 10px 10px 50px;
+}
+
+#h1 {
+    display:inline;
+    margin: 10px 150px 10px 20px; 
+}
+
+div {
+    padding:20px 0 10px 0;
+    background-color:black;
+    color:white;
+}
+
+.buttons {
+    color:black;
+    background-color:darkturquoise;
+    border:2px solid gainsboro;
+    border-radius:15px;
+    padding:5px 15px 5px 15px;
+    margin:0 0 7px 0;
+}
+
+.buttons:hover {
+    color:black;
+    background-color:darkorange;
+}
+
+span {
+    /* display:block; */
+
+    /* background-color:pink; */
+    border:2px solid black;
+    width:500px;
+    height:500px;
+    /* Span or inline element does not gain width and height */
+    padding:30px 20px 30px 20px;
+    margin:20px 30px 20px 30px;
+} 
+
