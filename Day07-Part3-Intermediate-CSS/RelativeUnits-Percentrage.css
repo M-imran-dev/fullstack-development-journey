@@ -1,0 +1,21 @@
+h1 {
+    background-color:pink;
+    border:2px solid black;
+    width:33.33%;
+}
+
+#outer {
+    background-color:green;
+    border:2px solid black;
+    width:400px;
+    height:400px;
+    padding:20%;
+}
+
+#inner {
+    background-color:black;
+    border:2px solid red;
+    width:200px;
+    height:200px;
+    padding:50%;
+}
