@@ -1,0 +1,17 @@
+#search {
+    background-color:bisque;
+    box-shadow:5px 5px 10px black;
+}
+
+form {
+    width:400px;
+    height:400px;
+    margin-top:200px;
+    transform:translateX(200px);
+}
+
+#submit {
+    width:100px;
+    box-shadow:5px 5px 10px rgb(255, 3, 3);
+    background-color:cornflowerblue;
+} 
