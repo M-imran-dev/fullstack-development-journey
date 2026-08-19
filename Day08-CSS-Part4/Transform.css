@@ -12,9 +12,13 @@ div {
     /* transform:rotate(45deg); */
 }
 
-#one, #three, #five{
+#one{
     /* clockwise rotate */
     transform:rotate(45deg);
+}
+
+#two {
+    transform:scale(0.5);
 }
 
 div:nth-of-type(2n) {
