@@ -10,6 +10,7 @@ div {
     text-align:center;
     background-color:#7aa874;
     /* transform:rotate(45deg); */
+    margin:auto;
 }
 
 #one{
@@ -19,6 +20,14 @@ div {
 
 #two {
     transform:scale(0.5);
+}
+
+#six {
+    transform:translate(100px,100px);
+    /* transform:translateX(100px);
+    transform:translateY(100px); */
+    background-color:black;
+    color:white;
 }
 
 div:nth-of-type(2n) {
