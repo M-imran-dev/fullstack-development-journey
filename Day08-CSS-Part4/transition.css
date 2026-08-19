@@ -1,0 +1,29 @@
+div {
+    background-color:darkorange;
+    /* border:2px solid black; */
+    /* margin:auto;
+    margin-top:30px;
+    margin-bottom:30px; */
+    width:200px;
+    height:200px;
+    /* transition-duration: 2s;
+    transition-delay:0.5s; */
+    /* margin:0 auto; */
+    margin:20px;
+    margin:0 auto;
+    /* transition-property:margin-left;
+    transition-duration:2s;
+    transition-delay:0.5s;
+    transition-timing-function:ease-in-out; */
+    transition:margin-top 3s ease 1s;
+
+}
+
+div:hover {
+    background-color:blueviolet;
+    /* border:3px gray solid; */
+    /* width:200px;
+    height:200px; */
+    /* border-radius:50%; */
+    margin-top:400px;
+}
