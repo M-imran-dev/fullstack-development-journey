@@ -1,0 +1,14 @@
+div {
+    background-color:rgba(255, 0, 0, 0.5);
+    border:2px solid black;
+    width:200px;
+    height:200px;
+}
+
+#opacity {
+    background-color:blueviolet;
+    width:200px;
+    height:200px;
+    border:2px solid green;
+    opacity:0.5;
+}
