@@ -1,0 +1,14 @@
+div {
+    height:400px;
+    /* width:400px; */
+    background-color:black;
+    background-image:url("image.png");
+    background-size:cover;
+}
+
+h1,h3 {
+    color:white;
+    text-align:center;
+    text-shadow: 10px 10px 5px black;
+    transform:translateY(100px);
+}
