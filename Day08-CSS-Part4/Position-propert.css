@@ -49,3 +49,9 @@ section {
     top:0px;
     left:0px;
 }
+
+#sticky {
+    background-color:chartreuse;
+    position:sticky;
+    top:200x;
+}

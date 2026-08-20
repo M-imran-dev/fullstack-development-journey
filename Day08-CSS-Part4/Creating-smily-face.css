@@ -1,0 +1,28 @@
+#maindiv {
+    width:200px;
+    height:200px;
+    background-color:orange;
+    border-radius:50%;
+}
+
+.eye {
+    width:25px;
+    height:25px;
+    background-color:black;
+    margin:20px 20px 50px 20px;
+    display:inline-block;
+    border-radius:50%;
+    position:relative;
+    top:30px;
+    left:30px;
+}
+
+#mouth {
+    background-color:brown;
+    width:90px;
+    height:35px;
+    border-radius:0 0 50% 50%;
+    position:relative;
+    top:20px;
+    left:50px;
+}
