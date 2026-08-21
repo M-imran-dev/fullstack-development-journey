@@ -1,0 +1,21 @@
+#container {
+    height:400px;
+    width:80%;
+    background-color:antiquewhite;
+    border:2px solid black;
+    margin:10px auto;
+    display:flex;
+    /* By default diplay:flex is in row direction */
+    flex-direction:column;
+}
+
+.rainbow {
+    width:200px;
+    height:200px;
+    text-align:center;
+    color:black;
+    font-weight: bold;
+    font-family:segoe ui;
+    font-size:1.5em;
+
+}
