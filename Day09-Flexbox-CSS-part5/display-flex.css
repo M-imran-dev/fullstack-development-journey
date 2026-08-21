@@ -1,17 +1,18 @@
 #container {
-    height:400px;
-    width:80%;
+    height:600px;
+    width:90%;
     background-color:antiquewhite;
     border:2px solid black;
     margin:10px auto;
     display:flex;
     /* By default diplay:flex is in row direction */
-    flex-direction:column;
+    flex-direction:row;
+    justify-content:space-evenly;
 }
 
 .rainbow {
-    width:200px;
-    height:200px;
+    width:60px;
+    height:60px;
     text-align:center;
     color:black;
     font-weight: bold;
