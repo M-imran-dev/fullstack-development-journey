@@ -8,8 +8,8 @@
     /* By default diplay:flex is in row direction */
     flex-direction:row;
     /* justify-content:space-evenly; */
-    flex-wrap:wrap;
-    align-content:baseline;
+    /* flex-wrap:wrap; */
+    align-content:flex-start;
     
 }
 
@@ -19,8 +19,8 @@ h2 {
 }
 
 .rainbow {
-    width:200px;
-    height:200px;
+    width:100px;
+    height:100px;
     text-align:center;
     color:black;
     font-weight: bold;
@@ -35,7 +35,8 @@ h2 {
 }
 
 #green {
-    /* height:400px;
-    font-size:0.5em; */
+    height:200px;
+    font-size:0.5em;
+    align-self:flex-start;
 }
 
