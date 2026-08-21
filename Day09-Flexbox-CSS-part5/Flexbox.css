@@ -1,6 +1,6 @@
 #container {
-    height:600px;
-    width:90%;
+    height:750px;
+    width:900px;
     background-color:antiquewhite;
     border:2px solid black;
     margin:10px auto;
@@ -19,8 +19,8 @@ h2 {
 }
 
 .rainbow {
-    width:100px;
-    height:100px;
+    width:300px;
+    height:300px;
     text-align:center;
     color:black;
     font-weight: bold;
@@ -30,13 +30,31 @@ h2 {
 }
 
 #blue {
-    /* height:200px;
-    font-size:3em; */
+    /* height:200px; */
+    /* font-size:3em; */
+    /* flex-basis:200px; */
+    /* flex-grow:1; */
+    flex-shrink:4;
+    min-width:80px;
+}
+
+#skyblue {
+    /* flex-grow:1; */
+    /* flex-shrink:2; */
+}
+ 
+#violet {
+    /* flex-basis:200px; */
+    /* flex-grow:2; */
+    /* max-width:500px; */
+    /* min-width:400px; */
+    flex-shrink:2;
 }
 
 #green {
-    height:200px;
+    /* height:200px;
     font-size:0.5em;
-    align-self:flex-start;
+    align-self:flex-start; */
+    flex-shrink:4;
 }
 
