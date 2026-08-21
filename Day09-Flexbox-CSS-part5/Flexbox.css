@@ -19,8 +19,8 @@ h2 {
 }
 
 .rainbow {
-    width:300px;
-    height:300px;
+    width:200px;
+    height:100px;
     text-align:center;
     color:black;
     font-weight: bold;
@@ -34,8 +34,9 @@ h2 {
     /* font-size:3em; */
     /* flex-basis:200px; */
     /* flex-grow:1; */
-    flex-shrink:4;
-    min-width:80px;
+    /* flex-shrink:4;
+    min-width:80px; */
+    flex:2 2 100px;
 }
 
 #skyblue {
@@ -48,13 +49,14 @@ h2 {
     /* flex-grow:2; */
     /* max-width:500px; */
     /* min-width:400px; */
-    flex-shrink:2;
+    /* flex-shrink:2; */
 }
 
 #green {
     /* height:200px;
     font-size:0.5em;
     align-self:flex-start; */
-    flex-shrink:4;
+    /* flex-shrink:4; */
+    flex:1 1 100px;
 }
 
