@@ -6,9 +6,11 @@
     margin:10px auto;
     display:flex;
     /* By default diplay:flex is in row direction */
-    flex-direction:column;
+    flex-direction:row;
     /* justify-content:space-evenly; */
-    flex-wrap:wrap-reverse;
+    flex-wrap:wrap;
+    align-items:baseline;
+    
 }
 
 h2 {
@@ -18,12 +20,22 @@ h2 {
 
 .rainbow {
     width:300px;
-    height:200px;
+    height:300px;
     text-align:center;
     color:black;
     font-weight: bold;
     font-family:segoe ui;
     font-size:1.5em;
 
+}
+
+#blue {
+    height:200px;
+    font-size:3em;
+}
+
+#green {
+    height:400px;
+    font-size:0.5em;
 }
 
