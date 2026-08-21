@@ -1,0 +1,35 @@
+#container {
+    width:900px;
+    height:100px;
+    border:2px solid #65a9a1;
+    background-color:#f5c3cc;
+    border-radius:10px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    
+}
+
+.box {
+    width:100px;
+    height:100px;
+    font-size:24px;
+    margin:25px 0 0px 5px;
+    
+}
+
+.box:hover {
+    color:brown;
+    font-weight: bold;
+    font-family:segoe ui;
+}
+
+#logo {
+    background-image:url("Imran\ Profile\ Logo.png");
+    background-size:cover;
+    width:100px;
+    height:100px;
+    background-size:cover;
+    margin:0;
+    border-radius:10px;
+}
