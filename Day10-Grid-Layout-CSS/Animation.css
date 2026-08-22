@@ -1,0 +1,64 @@
+.box {
+    width:300px;
+    height:100px;
+    background-color:pink;
+    /* animation-name:fontAnimate;
+    animation-duration:2s;
+    animation-delay:0;
+    animation-timing-function:ease-in;
+    animation-iteration-count:3;
+    animation-direction:normal */
+
+    /* animation-name:width-heightAnimate;
+    animation-duration:3s;
+    animation-delay:1s;
+    animation-timing-function:ease-in;
+    animation-direction:normal;
+    animation-iteration-count:3; */
+}
+
+.notification {
+    width:874px;
+    height:1000px;
+    background-image:url("https://cednoticeboard.wordpress.com/wp-content/uploads/2021/09/notification.jpeg");
+
+    animation-name:notificationAnimate;
+    animation-duration:3s;
+    animation-delay:0;
+    animation-timing-function:ease-in;
+    animation-direction:normal;
+    animation-iteration-count:2;
+}
+
+@keyframes fontAnimate {
+    from {
+        font-size:10px;
+    }
+
+    to {
+        font-size:50px;
+    }
+}
+
+@keyframes width-heightAnimate {
+    from {
+        width:1500px;
+        height:100px;
+    }
+    to {
+        width:1500px;
+        height:600px;
+    }
+}
+
+@keyframes notificationAnimate {
+    from {
+        width:874px;
+        height:100px;
+    }
+
+    to {
+        width:874px;
+        height:1000px;
+    }
+}
