@@ -16,13 +16,13 @@
     animation-direction:normal;
     animation-iteration-count:3; */
 
-    animation:width-heightAnimate 2s ease-out 0s 2 normal;
+    animation:width-heightAnimate 5s ease-out 0s 2 normal;
 }
 
 .notification {
-    width:874px;
+    /* width:874px;
     height:1000px;
-    background-image:url("https://cednoticeboard.wordpress.com/wp-content/uploads/2021/09/notification.jpeg");
+    background-image:url("https://cednoticeboard.wordpress.com/wp-content/uploads/2021/09/notification.jpeg"); */
 
     /* animation-name:notificationAnimate;
     animation-duration:3s;
@@ -32,7 +32,7 @@
     animation-iteration-count:2; */
 
     /* Animation shorthand */
-    animation:notificationAnimate 2s ease-in 0s 2 reverse;
+    /* animation:notificationAnimate 2s ease-in 0s 2 reverse; */
 
 }
 
@@ -47,17 +47,31 @@
 }
 
 @keyframes width-heightAnimate {
-    from {
-        width:1500px;
-        height:100px;
-        font-size:30px;
+    0% {
+        width:100px;
+        font-size:10px;
         background-color:green;
     }
-    to {
-        width:1500px;
-        height:300px;
-        font-size:100px;
+    20% {
+        font-size:20px;
         background-color:blue;
+    }
+    40% {
+        background-color:yellow;
+        font-size:30px;
+    }
+    60% {
+        background-color:aqua;
+        font-size:40px;
+    }
+    80% {
+        background-color:rgb(255, 153, 0);
+        font-size:45px;
+    }
+    100% {
+        width:1000px;
+        background-color:red;
+        font-size:50px;
     }
 }
 
