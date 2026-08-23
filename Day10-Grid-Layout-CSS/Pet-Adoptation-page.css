@@ -1,0 +1,53 @@
+* {
+    background-color:black;
+}
+
+h3,span {
+    color:darkgoldenrod;
+}
+
+h2 {
+    color:#ffec17;
+}
+
+h1 {
+    color:white;
+}
+
+h4 {
+    color:darkgoldenrod;
+    text-align:right;
+}
+
+#pets {
+    margin:0 0 0 15px;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.card {
+    width:400px;
+    border:2px solid #d2920c;
+    border-radius:25px;
+    display:inline-block;
+    padding:10px;
+    margin:10px;
+    color:#f6f6f6;
+    transition-duration:1s;
+}
+
+.card:hover {
+    box-shadow:2px 5px 20px #fffe3a;
+}
+
+img {
+    width:100%; 
+    border-radius:25px;
+    
+}
+
+@media (max-width:400px){
+    #pets {
+        flex-wrap:wrap;
+    }
+}
