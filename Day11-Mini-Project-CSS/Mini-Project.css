@@ -34,7 +34,7 @@
     font-weight:500;
     position:absolute;
     left:260px;
-    top:5px;
+    top:15px;
 }
 
 .btn_two i {
@@ -115,3 +115,13 @@
 #check:checked~ .btn_one i {
     opacity:0;
 }
+
+.logo a {
+    display:flex;
+    justify-self: center;
+}
+
+.sidebar_menu .menu li i,a {
+    position:relative;
+    left:10px;
+} 
