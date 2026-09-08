@@ -20,7 +20,7 @@
 }
 
 .sidebar_menu {
-    position:fixed;
+    position:relative;
     height:100vh;
     width:300px;
     background-color:rgba(255,255,255,0.1);
@@ -28,11 +28,14 @@
 }
 
 .btn_two {
-    color:gray;
     font-size:20px;
     font-weight:500;
     position:absolute;
     left:260px;
+}
+
+.btn_two i {
+    color:gray;
 }
 
 .sidebar_menu .logo {
@@ -53,6 +56,7 @@
 
 .sidebar_menu .menu {
     position:absolute;
+    width:95%;
     top:100px;
     padding:20px 10px;
     font-size:20px;
@@ -70,10 +74,32 @@
     position:absolute;
     bottom:50px;
     left:25%;
-    opacity:0.5;
+}
+
+.sidebar_menu .social_media i {
+    color:rgba(255,255,255,0.5);
+    font-size:20px;
 }
 
 #check {
     display:none;
 }
 
+.sidebar_menu .menu li:hover {
+    box-shadow:0 0 6px rgba(255,255,255,0.5);
+}
+
+.btn_one i:hover {
+    font-size:40px;
+    cursor:pointer;
+} 
+
+.btn_two i:hover {
+    font-size:30px;
+    cursor:pointer;
+}
+
+.sidebar_menu .social_media i:hover {
+    transform:scale(1.5);
+    color:rgba(255,255,255,1);
+}
