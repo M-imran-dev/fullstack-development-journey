@@ -1,44 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap CSS</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap CSS</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
 
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-   <div class="container-fluid">
-    <h2>Bootstrap Demo</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A ipsam eaque placeat soluta autem officiis explicabo, suscipit quas reprehenderit enim cum voluptates totam non? Eligendi magni doloremque autem dolorum. Voluptatibus!
-    A unde, nulla molestiae, aperiam, rem cum quod inventore adipisci officia nostrum assumenda quo doloribus? Tempore quam exercitationem ipsa vitae voluptatem, facere distinctio eos autem temporibus perspiciatis suscipit debitis aut!
-    Enim excepturi aspernatur cumque voluptates sed aut corrupti quod quas quasi assumenda asperiores facere atque eius necessitatibus veritatis at minus nulla rerum, tempore nemo eaque quae iure iusto. Minus, quod?
-    Atque architecto porro eligendi voluptate. Minus exercitationem cupiditate illum voluptates ipsa ducimus est quis, minima cumque. Dicta laboriosam maiores totam debitis est facere quae accusantium dolorem dolore. Sapiente, sint enim?
-    In debitis quibusdam, labore iste veritatis animi delectus expedita possimus consectetur fuga odio quia, voluptatum minus dolorem eveniet quis exercitationem omnis culpa? Accusantium non aut magni qui ratione provident tempore?</p>
-   </div>
-   <button class="btn btn-outline-primary btn-lg" >click me!</button>
-   <button class="btn btn-outline-success btn-sm" >click me!</button>
-    <button class="btn btn-outline-danger" disabled >submit</button>
-    <button class="btn btn-outline-warning" >click me!</button>
-    <a href="google.com" class="btn btn-outline-dark">google me!</a>
-    <br>
 
-   <h4>Notification<span class="badge bg-secondary">10+</span></h4> 
-   <h4>Alerts<span class="badge rounded-pill bg-primary">99+</span></h4>
-   <br>
-   <button class="btn btn-outline-success">
+<body>
+  <div class="container-fluid">
+    <h2>Bootstrap Demo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A ipsam eaque placeat soluta autem officiis explicabo,
+      suscipit quas reprehenderit enim cum voluptates totam non? Eligendi magni doloremque autem dolorum. Voluptatibus!
+      A unde, nulla molestiae, aperiam, rem cum quod inventore adipisci officia nostrum assumenda quo doloribus? Tempore
+      quam exercitationem ipsa vitae voluptatem, facere distinctio eos autem temporibus perspiciatis suscipit debitis
+      aut!
+      Enim excepturi aspernatur cumque voluptates sed aut corrupti quod quas quasi assumenda asperiores facere atque
+      eius necessitatibus veritatis at minus nulla rerum, tempore nemo eaque quae iure iusto. Minus, quod?
+      Atque architecto porro eligendi voluptate. Minus exercitationem cupiditate illum voluptates ipsa ducimus est quis,
+      minima cumque. Dicta laboriosam maiores totam debitis est facere quae accusantium dolorem dolore. Sapiente, sint
+      enim?
+      In debitis quibusdam, labore iste veritatis animi delectus expedita possimus consectetur fuga odio quia,
+      voluptatum minus dolorem eveniet quis exercitationem omnis culpa? Accusantium non aut magni qui ratione provident
+      tempore?</p>
+  </div>
+  <button class="btn btn-outline-primary btn-lg">click me!</button>
+  <button class="btn btn-outline-success btn-sm">click me!</button>
+  <button class="btn btn-outline-danger" disabled>submit</button>
+  <button class="btn btn-outline-warning">click me!</button>
+  <a href="google.com" class="btn btn-outline-dark">google me!</a>
+  <br>
+
+  <h4>Notification<span class="badge bg-secondary">10+</span></h4>
+  <h4>Alerts<span class="badge rounded-pill bg-primary">99+</span></h4>
+  <br>
+  <button class="btn btn-outline-success">
     Notifications
     <span class="badge bg-danger rounded-pill">99+</span>
-   </button>
-   <br>
-   <button type="button" class="btn btn-primary position-relative">
+  </button>
+  <br>
+  <button type="button" class="btn btn-primary position-relative">
     Followers
-  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
-    99+
-    <span class="visually-hidden">unread messages</span>
-  </span>
-</button>
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>   
+    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+      99+
+      <span class="visually-hidden">unread messages</span>
+    </span>
+  </button>
+  <br>
+
+  <div class="alert alert-success">
+    Congradulations You have Successfully get 50/50.
+  </div>
+  <div class="alert alert-danger">
+    You are Failed! try again.
+  </div>
+  <br>
+  <div class="alert alert-success">
+    Congradulations You Won.<a href="#" class="alert-link">Get the Prize</a>
+  </div>
+  <div class="alert alert-warning alert alert-dismissible">
+    Don't try it again!
+    <button class="btn-close" data-bs-dismiss="alert"></button>
+  </div>
+  <br>
+  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Hi Imran!</strong> We have notice you have recently login.
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
