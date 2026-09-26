@@ -218,23 +218,6 @@ The primary objectives of this repository are:
 
 ---
 
-# Open Source
-
-This repository is maintained as a learning resource and welcomes constructive feedback.
-
-If you find an issue or have suggestions for improvement, feel free to:
-
-- Fork the repository
-- Create a new branch
-- Make improvements
-- Submit a Pull Request
-- Report issues
-- Share recommendations
-
-Every contribution that helps improve the repository is appreciated.
-
----
-
 # Connect With Me
 
 <div align="center">
