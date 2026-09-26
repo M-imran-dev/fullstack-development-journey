@@ -7,5 +7,10 @@ let temp = null // null
 //bigint used for large numbers 
 
 // console.log(typeof "imran")
-console.table([typeof "Imran Dev", typeof "aged", typeof 134, typeof true,typeof undefined, typeof null])
+// console.table([typeof "Imran Dev", typeof "aged", typeof 134, typeof true,typeof undefined, typeof null])
+
+// const foo = 42
+// const result = foo + "1"
+
+// console.log(result)
 
