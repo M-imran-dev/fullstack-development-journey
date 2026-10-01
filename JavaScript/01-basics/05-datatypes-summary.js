@@ -37,5 +37,26 @@ let myFunction = function(){
     console.log("Hello World!"); 
 }
 
-console.log(typeof semester)
+// console.log(typeof semester)
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack Memory (Primative Datatype), Heap(Non-Primitive)
+
+let userOneEmail = "imran@google.com"
+
+let userTwoEmail = userOneEmail
+userTwoEmail = "imran@microsoft.com"
+
+console.log(userOneEmail,userTwoEmail)
+
+let myProfile = {
+    name: "Imran",
+    age : 18
+}
+
+let myFriendProfile = myProfile
+myFriendProfile.name = "haseeb"
+myFriendProfile.age = 22
+
+console.table([myProfile,myFriendProfile])
